@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[
+int kadane($1vector<int> &a){
+	int curr = 0, ans = INT_MIN;
+	for(int i=0; i<a.size(); ++i){
+		curr += a[i];
+		ans = max(ans, curr);
+		curr = curr < 0 ? 0 : curr;
+	}
+	return ans;
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>kadane</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.c++</scope>
+</snippet>
