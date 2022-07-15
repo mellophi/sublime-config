@@ -5,6 +5,8 @@
 	],
 	"installed_packages":
 	[
+		"CPP Competitive Programming Snippets",
+		"CppFastOlympicCoding",
 		"EasyClangComplete",
 		"Package Control",
 		"Terminal",
