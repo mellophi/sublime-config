@@ -24,10 +24,17 @@
 #define s second
 
 using namespace std;
+$2
 int main()
 {
+	clock_t start = clock();
 	std::ios::sync_with_stdio(false);
+	
 	$1
+
+
+	clock_t end = clock();
+	cerr << "\n\nExecuted In: " << fixed << double(end - begin) / double(CLOCKS_PER_SEC * 1000) << setprecision(5) << " ms";
 	return 0;
 }
 ]]></content>

@@ -9,6 +9,7 @@
 		"CppFastOlympicCoding",
 		"EasyClangComplete",
 		"Package Control",
-		"Terminal",
+		"SublimeAStyleFormatter",
+		"Terminus",
 	],
 }
