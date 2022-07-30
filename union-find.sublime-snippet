@@ -1,0 +1,23 @@
+<snippet>
+	<content><![CDATA[
+vector<int> parent, score;
+
+ll Get(int a) {
+	$2return parent[a] = parent[a] == a ? a : Get(parent[a]);
+}
+
+void Union(int a, int b) {
+	a = Get(a);
+	b = Get(b);
+	// uncomment below for normal union by rank
+	// if(score[a] == score[b]) score[a]++;
+	// if(score[a] < score[b]) parent[a] = b;
+	// else parent[b] = a;
+	$1
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>union-find</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.c++</scope>
+</snippet>

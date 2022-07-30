@@ -31,7 +31,7 @@ void solve(){
 
 int main()
 {	
-	clock_t start = clock();
+	clock_t begin = clock();
 	std::ios::sync_with_stdio(false);
 	int T; cin >> T;
 	while(T--){

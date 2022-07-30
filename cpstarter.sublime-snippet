@@ -27,7 +27,7 @@ using namespace std;
 $2
 int main()
 {
-	clock_t start = clock();
+	clock_t begin = clock();
 	std::ios::sync_with_stdio(false);
 	
 	$1
