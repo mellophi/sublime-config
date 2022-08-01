@@ -31,15 +31,12 @@ void solve(){
 
 int main()
 {	
-	clock_t begin = clock();
 	std::ios::sync_with_stdio(false);
-	int T; cin >> T;
+	int T=1; 
+	cin >> T;
 	while(T--){
 		solve();
 	}
-
-	clock_t end = clock();
-	cerr << "\n\nExecuted In: " << fixed << double(end - begin) / double(CLOCKS_PER_SEC * 1000) << setprecision(5) << " ms";
 	return 0;
 }
 ]]></content>
